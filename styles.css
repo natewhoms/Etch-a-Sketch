@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'rondo';
+    src: url(rondo.ttf);
+}   
+
+body{
+    padding: 30px;
+    background-image: url("background.jpg");
+
+}
+.wrapper{
+}
+.grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 30px;
+    border-color: red;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    gap:0;
+    height: 70vh;
+    width: 70vh;
+    margin:0 auto;
+    background-color: black;
+    padding: 0;
+}
+
+
+.square {
+	background-color: #eee;
+}
+
+.square-transitioned {
+    transition:1s ease-in;
+	background-color: black;
+}
+
+.bottom{
+    position: absolute;
+    top: 90%;
+    display:flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    margin:0 auto;
+    height: 5vh;
+    width: 70vh;
+    border-style: solid;
+    border-width: 30px;
+    border-top-width: 1vw;
+    border-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'rondo';
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+}
+
+.logo{
+    position: fixed;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    white-space: nowrap;
+}
+
+.dot{
+    display:flex;
+    justify-content: space-between;
+    width: 70vh;
+    position: absolute;
+}
+.dot-inner1{
+    bottom: 1vh;
+    position:relative;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255, 248, 239);
+    border-radius: 50%;
+    box-shadow: -1px 1px 10px black;
+}
+.dot-inner2{
+    bottom: 1vh;
+    position:relative;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255, 248, 239);
+    border-radius: 50%;
+    box-shadow: -1px 1px 10px black;
+    justify-content: space-between;
+}
+
+.reset{
+    text-align: center;
+    font-family: 'rondo';
+    font-size: 40px;
+    text-decoration: underline;
+    box-shadow: 0 0 10px black;
+}
+
+.btnWrap2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:50%;
+    padding-bottom: 300px;
+}
+
+.gridSlideContainer {
+    padding-left: 10%;
+}
+
+.applyBtn{
+   padding-left: 2.5%;
+}
+
+.size{
+    padding-left:2%;
+    text-align: center;
+    align-items: center;
+}
+
+#demo {
+    text-align: center;
+}
+
+.btnWrap3{
+    padding-left:9%;
+    padding-bottom: 5%;
+}
+
+.blackBtn,.rainbowBtn{
+    font-size: 20px;
+}
